@@ -139,7 +139,7 @@ h1:hover {
 /* PYTHON CSS CODE*/
 
 .softwarebackground {
-    background-color: #010409;
+    background-color: #0d1117;
 }
 
 .pythonimages {
@@ -337,7 +337,7 @@ h1:hover {
 /* JAVA CSS CODE*/
 
 .javasoftwarebackground {
-    background-color: #010409;
+    background-color: #0d1117;
 }
 
 .javaimages {
@@ -414,6 +414,7 @@ h1:hover {
 .javatext {
     color: white;
     padding: 20px 15px;
+    background-color: #010409;
     border-radius: 15px;
     border: solid 1px #7d8590;
     font-size: 25px;
@@ -511,7 +512,7 @@ h1:hover {
 /* C CSS CODE*/
 
 .csoftwarebackground {
-    background-color: #010409;
+    background-color: #0d1117;
 }
 
 .cimages {
@@ -710,7 +711,7 @@ h1:hover {
 /* Advance-C CSS CODE*/
 
 .advancecsoftwarebackground {
-    background-color: #010409;
+    background-color: #0d1117;
 }
 
 #advancec {
