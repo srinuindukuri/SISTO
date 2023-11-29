@@ -1,0 +1,1013 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    height: 60px;
+    width: 60px;
+    border-radius: 7px;
+}
+
+.main-title {
+    float: left;
+    margin-top: 10px;
+    font-family: "Helvetica Neue";
+    margin-right: 400px;
+    color: black;
+}
+
+.main-title::hover {
+    color: black;
+}
+
+li,
+a {
+    font-weight: 800;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+h1 {
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+}
+
+h1:hover {
+    transition: all 0.3s ease 0s;
+    color: red;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 40px;
+    text-decoration: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.navbar li a {
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: black;
+    background-color: rgb(81, 75, 75);
+    width: 20px;
+    color: white;
+}
+
+.dropdown {
+    width: 1255px;
+    margin: -5px;
+    background-position: center;
+    background-color: white;
+}
+
+.dropdown ul {
+    list-style: none;
+}
+
+.dropdown ul li {
+    background: lightgray;
+    width: 120px;
+    border: 1px solid white;
+    margin-left: 5px;
+    height: 50px;
+    line-height: 38px;
+    text-align: center;
+    float: left;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    font-family: Franklin Gothic Medium;
+    transition: all 0.3s ease 0s;
+    padding: 12px 5px;
+    border-radius: 9px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.dropdown ul li:hover {
+    background-color: rgb(81, 75, 75);
+    color: white;
+}
+
+.dropdown ul ul {
+    display: none;
+    color: white;
+}
+
+.dropdown ul li:hover>ul {
+    display: block;
+}
+
+.dropdown ul ul ul {
+    margin-left: 10px;
+    top: 0;
+    position: absolute;
+}
+
+
+/*===============================================================================================
+  ============================================================================================-->
+/* PYTHON CSS CODE*/
+
+.softwarebackground {
+    background-color: #e0e0e2;
+}
+
+.pythonimages {
+    width: 150px;
+    height: 150px;
+    margin-left: 570px;
+    border-radius: 9px;
+}
+
+.title:hover {
+    color: black;
+}
+
+.text {
+    color: black;
+    background-color: #cacaca;
+    transition: all 0.3s ease 0s;
+    padding: 20px 15px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 310px;
+    margin-right: 290px;
+    line-height: 200%;
+    font-family: Optima;
+    text-align: center;
+    text-decoration: none;
+}
+
+.text:hover {
+    background-color: #e0e0e2;
+    transition: all 0.4s ease 0s;
+    color: black;
+}
+
+.p-link {
+    border-radius: 5px;
+    flex-grow: 1;
+    font-family: big john;
+    font-size: 20px;
+    font-weight: 900;
+    transition: all 0.3s ease 0s;
+    line-height: 20px;
+    width: 10%;
+    margin-left: 23px;
+    text-decoration: none;
+}
+
+.platform-card {
+    width: 190px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 90px;
+}
+
+.platform-card:hover {
+    transform: translateY(-10px);
+}
+
+.card1 {
+    background-image: url('/media/w3schools-logo.png');
+}
+
+.card2 {
+    background-image: url('/media/coadacademy.png');
+}
+
+.card3 {
+    background-image: url('/media/realpython.png');
+}
+
+.card4 {
+    background-image: url('/media/learnpython.png');
+}
+
+.learn-python {
+    margin-left: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    font-family: Optima;
+}
+
+.learn-python:hover {
+    color: black;
+}
+
+.features {
+    margin-top: 320px;
+    margin-left: -250px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    border-color: black;
+    border-width: 2px;
+}
+
+.features:hover {
+    background-color: #dddddd;
+    color: black;
+    border-color: black;
+    transition: all 0.3s ease 0s;
+}
+
+.python-codeacademyfeatures,
+.realpython-features,
+.learnpython-features {
+    margin-top: -3px;
+    margin-left: -250px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    border-color: black;
+    border-width: 2px;
+}
+
+.python-codeacademyfeatures:hover,
+.realpython-features:hover,
+.learnpython-features:hover {
+    background-color: #dddddd;
+    color: black;
+    border-color: black;
+    transition: all 0.3s ease 0s;
+}
+
+.w3schools-logo {
+    width: 50px;
+    height: 40px;
+}
+
+.python-link {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: big john;
+    transition: all 0.3s ease 0s;
+    padding: 9px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    line-height: 10px;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.python-link:hover {
+    background-color: black;
+    color: ghostwhite;
+}
+
+.w3schools-logo,
+.coadacademy-logo,
+.realpython-logo,
+.learnpython-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.w3-text,
+.ca-text,
+.realpython-text,
+.learnpython-text {
+    margin-top: 230px;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+    color: black;
+}
+
+.w3-text:hover,
+.ca-text:hover,
+.realpython-text:hover,
+.learnpython-text:hover {
+    color: black;
+}
+
+
+/*===============================================================================================
+  ============================================================================================-->
+/* JAVA CSS CODE*/
+
+.javasoftwarebackground {
+    background-color: #e0e0e2;
+}
+
+.javaimages {
+    width: 130px;
+    height: 140px;
+    margin-left: 640px;
+    border-radius: 9px;
+}
+
+.java-card1 {
+    width: 190px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 70px;
+    background-image: url('/media/tutorialspoint.logo.jpg');
+}
+
+.java-card2 {
+    width: 190px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 100px;
+    background-image: url('/media/w3schools-logo.png');
+}
+
+.java-card3 {
+    width: 190px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 100px;
+    background-image: url('/media/learn.java.png');
+}
+
+.java-card4 {
+    width: 190px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 100px;
+    background-image: url('/media/javatpoint.logo.png');
+}
+
+.javatext {
+    color: black;
+    background-color: #cacaca;
+    transition: all 0.3s ease 0s;
+    padding: 20px 15px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 310px;
+    margin-right: 290px;
+    line-height: 200%;
+    text-align: center;
+    font-family: Optima;
+}
+
+.javatext:hover {
+    background-color: #e0e0e2;
+    transition: all 0.5s ease 0s;
+    color: black;
+}
+
+.j-link {
+    border-radius: 5px;
+    flex-grow: 1;
+    font-family: big john;
+    font-size: 20px;
+    font-weight: 900;
+    transition: all 0.3s ease 0s;
+    line-height: 20px;
+    width: 10%;
+    margin-left: 23px;
+    text-decoration: none;
+}
+
+.learn-java {
+    margin-left: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    font-family: Optima;
+}
+
+.java-link {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: big john;
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    line-height: 6px;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+    text-decoration: none;
+}
+
+.java-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.tutorialspoint-logo,
+.w3schools-logo,
+.learn-java-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.java-tutorialspoint-text,
+.java-w3schools-text,
+.learn-java-text,
+.java-tpoint-text {
+    margin-top: 230px;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+    color: black;
+}
+
+.java-tutorialspoint-text:hover,
+.java-w3schools-text:hover,
+.learn-java-text:hover,
+.java-tpoint-text {
+    color: black;
+}
+
+
+/*===============================================================================================
+  ============================================================================================-->
+/* C CSS CODE*/
+
+.csoftwarebackground {
+    background-color: #e0e0e2;
+}
+
+.cimages {
+    width: 150px;
+    height: 150px;
+    margin-left: 580px;
+    margin-top: 36px;
+    border-radius: 12px;
+}
+
+.c-card1 {
+    width: 190px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 100px;
+    background-image: url('/media/tutorialspoint.logo.jpg');
+}
+
+.c-card2 {
+    width: 190px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 70px;
+    background-image: url('/media/javatpoint.logo.png');
+}
+
+.c-card3 {
+    width: 190px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 70px;
+    background-image: url('/media/realpython.png');
+}
+
+.c-card4 {
+    width: 190px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 70px;
+    background-image: url('/media/w3schools-logo.png');
+}
+
+.ctext {
+    color: black;
+    background-color: #cacaca;
+    transition: all 0.3s ease 0s;
+    padding: 20px 15px;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 310px;
+    margin-right: 290px;
+    line-height: 200%;
+    text-align: center;
+    font-family: Optima;
+    text-decoration: none
+}
+
+.ctext:hover {
+    background-color: #e0e0e2;
+    transition: all 0.5s ease 0s;
+    color: black;
+}
+
+.learn-c {
+    margin-left: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    font-family: Optima;
+}
+
+.learn-c:hover {
+    color: black;
+}
+
+.clink {
+    border-radius: 5px;
+    flex-grow: 1;
+    font-family: big john;
+    font-size: 20px;
+    font-weight: 900;
+    transition: all 0.3s ease 0s;
+    line-height: 20px;
+    width: 10%;
+    margin-left: 23px;
+    text-decoration: none;
+}
+
+.c-link {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: big john;
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    line-height: 6px;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+    text-decoration: none;
+}
+
+.c-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.tutorials-point-logo,
+.javatpoint-logo,
+.w3Schools-logo,
+.geeksforgeeks-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.c-tutorials-point-text,
+.c-javatpoint-text,
+.w3Schools-text,
+.geeksforgeeks-text {
+    margin-top: 230px;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+    color: black;
+}
+
+.c-tutorials-point-text:hover,
+.c-javatpoint-text:hover,
+.w3Schools-text:hover,
+.geeksforgeeks-text:hover {
+    color: black;
+}
+
+
+/*===============================================================================================
+  ============================================================================================-->
+/* Advance-C CSS CODE*/
+
+.advancecsoftwarebackground {
+    background-color: #e0e0e2;
+}
+
+#advancec {
+    width: 50%;
+    float: left;
+}
+
+.advancecimages {
+    width: 150px;
+    height: 150px;
+    margin-left: 600px;
+    margin-top: 36px;
+    border-radius: 4px;
+}
+
+.advanceC-card1 {
+    width: 190px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 100px;
+    background-image: url('/media/tutorialspoint.logo.jpg');
+}
+
+.advanceC-card2 {
+    width: 190px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 100px;
+    background-image: url('/media/javatpoint.logo.png');
+}
+
+.advanceC-card3 {
+    width: 190px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 100px;
+    background-image: url('/media/w3schools-logo.png');
+}
+
+.advanceC-card4 {
+    width: 190px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 100px;
+    background-image: url('/media/geeksforgeeks.logo.png');
+}
+
+.advancectext {
+    color: black;
+    background-color: #cacaca;
+    transition: all 0.3s ease 0s;
+    padding: 20px 15px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 310px;
+    margin-right: 290px;
+    line-height: 200%;
+    text-align: center;
+    font-family: Optima;
+}
+
+.advancectext:hover {
+    background-color: #e0e0e2;
+    transition: all 0.5s ease 0s;
+    color: black;
+}
+
+.adv-c-link {
+    background-color: black;
+    color: white;
+}
+
+.advancec-link {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: big john;
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    color: black;
+    border-radius: 5px;
+    line-height: 6px;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+    text-decoration: none;
+}
+
+.advancec-link:hover {
+    background-color: black;
+    color: white;
+}
+
+.advancelearn-c {
+    margin-left: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    font-family: Optima;
+}
+
+.advancelearn-c:hover {
+    color: white;
+}
+
+.tutorials-point-logo,
+.javatpoint-logo,
+.w3Schools-logo,
+.learn-advancec-programming-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.c-tutorials-point-text,
+.c-javatpoint-text,
+.c-w3Schools-text,
+.Advance-c-programming-text {
+    margin-top: 230px;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+    color: black;
+}
+
+.c-tutorials-point-text:hover,
+.c-javatpoint-text:hover,
+.w3Schools-text:hover,
+.learn-advancec-programming-text:hover {
+    color: black;
+}
+
+
+/*===============================================================================================
+  ============================================================================================-->
+/* Python ide's CODE*/
+
+#python-ide {
+    background-color: #d8e3e7;
+}
+
+.ide-title,
+.ide-title:hover {
+    color: black;
+    margin-left: 480px;
+    font-family: 'Anton', sans-serif;
+    background-color: #d8e3e7;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.first-ide,
+.first-ide:hover,
+.second-ide,
+.second-ide:hover,
+.third-ide,
+.third-ide:hover,
+.fourth-ide,
+.fourth-ide:hover,
+.fifth-ide,
+.fifth-ide:hover {
+    color: black;
+    margin-left: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 33px;
+    cursor: pointer;
+}
+
+.pythonidleimages,
+.pythonatomimages,
+.pythonspyderimages,
+.pythonpycharmimages,
+.pythonsublimeimages {
+    height: 450px;
+    width: 450px;
+    float: left;
+    background-color: #d8e3e7;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.display {
+    display: flex;
+}
+
+.idle-matter,
+.atom-matter,
+.spyder-matter,
+.pycharm-matter,
+.sublime-matter {
+    float: left;
+    color: black;
+    font-size: 19px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.learn-more {
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 850;
+    text-decoration: none;
+}
+
+.learn-more:hover {
+    color: black;
+    background-color: white;
+    width: 20px;
+}
+
+.download-atom {
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 850;
+    text-decoration: none;
+}
+
+.download-atom:hover {
+    color: black;
+    background-color: white;
+    width: 20px;
+}
+
+.spyder-website,
+.jupyter-notebook,
+.eclipse {
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 850;
+    text-decoration: none;
+}
+
+.spyder-website:hover,
+.jupyter-notebook:hover,
+.eclipse:hover {
+    color: black;
+    background-color: white;
+    width: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.pycharm-download,
+.pycharm-features {
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 850;
+    text-decoration: none;
+}
+
+.pycharm-download:hover,
+.pycharm-features:hover {
+    color: black;
+    background-color: white;
+    width: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.download-sublime {
+    transition: all 0.3s ease 0s;
+    padding: 9px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 850;
+    text-decoration: none;
+}
+
+.download-sublime:hover {
+    color: black;
+    background-color: white;
+    width: 20px;
+    transition: all 0.3s ease 0s;
+}

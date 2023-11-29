@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% extends 'base.html' %} {% load static %} {% block title %}
+    <title>Python Software</title>
+    {% endblock %} {% block content %}
+    <head/>
+
+    <body>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="{%static 'css/css/bootstrap.css'%}">
+
+        <div class="softwarebackground">
+            <div class="python">
+
+                <img class="pythonimages" src="/media/pythonimage.png" alt="">
+            </div>
+
+            <div class="platformcard">
+                <div class="card-body">
+                    <h1 class="text">Python Software - Windows
+                        <a class="p-link" href="https://www.python.org/downloads/windows/"> Download Here </a>
+
+                        <h1 class="text"> Python Software - Mac-OS
+                            <a class="p-link" href="https://www.python.org/downloads/mac-osx/"> Download Here </a>
+
+                            <h1 class="text"> Python Software - Linux/Ubuntu
+                                <a class="p-link" href="https://www.python.org/downloads/source/"> Download Here </a>
+                            </h1>
+                        </h1>
+                    </h1>
+                </div>
+            </div>
+            <hr>
+
+            <section id="learning-platform-python">
+                <h1 class="learn-python">Platforms to Learn Python</h1>
+                <br>
+
+                <div class="col">
+                    <div class="platform-card card1">
+                        <h1 class="w3-text">W3 Schools</h1>
+                        <a class="python-link" href="https://www.w3schools.com/python/default.asp">Click Here</a></span>
+                    </div>
+
+
+                    <div class="platform-card card2">
+                        <h1 class="ca-text">CoadAcademy</h1>
+
+                        <a class="python-link" href="https://www.codecademy.com/catalog/language/python">Click Here</a></span>
+                    </div>
+
+                    <div class="platform-card card3">
+                        <h1 class="realpython-text">REAL PY</h1>
+
+                        <a class="python-link" href="https://realpython.com/">Click Here</a></span>
+                    </div>
+
+                    <div class="platform-card card4">
+                        <h1 class="learnpython-text">LEARN PY</h1>
+
+                        <a class="python-link" href="https://www.learnpython.org/">Click Here</a></span>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+
+
+        </div>
+        </section>
+        <script src="{%static 'css/js/bootstrap.js'%}"></script>
+    </body>
+    <html/> {% endblock %}

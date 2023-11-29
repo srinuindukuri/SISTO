@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% load static %}
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{%static 'css/css/bootstrap.css'%}">
+
+
+	<title>SIST</title>
+	<link rel="stylesheet" href="{%static 'style.css'%}">
+</head>
+
+<body>
+
+<header>
+	<div class="container">
+		<h1>SISTO</h1>
+	
+	<nav class="navbar">
+	    <ul>
+	        <li><a href="#">HOME</a></li>
+	        <li><a href="#">ABOUT</a></li>
+	        <li><a href="#">CONTACT</a></li>
+	        {% if user.is_authenticated %}
+	        	<li><a href="{% url 'logout' %}">LOGOUT</a></li>
+	        {% else %}
+	        	<li><a href="{% url 'login' %}">LOGIN</a></li>
+	        {% endif %}	
+	    </ul>
+	</nav>
+	<div/>
+</header>
+
+<div class="dropdown">
+	<ul>
+	    <li><a href="#">1ST YEAR</a>
+	    	<ul>
+	    		<button type="button" class="btn btn-primary"><li><a href="{% url 'pylang' %}">Python</a></li></button>
+	        </ul>
+	    </li>
+
+	    <li><a href="#">2ND YEAR</a>
+	    	<ul>
+	    		<li>****</li>
+	        </ul>
+	    </li>
+
+	    <li><a href="#">3RD YEAR</a>
+            <ul>
+                <li>****</li>
+            </ul>
+        </li>
+
+        <li><a href="#">4TH YEAR</a>
+            <ul>
+                 <li>****</li>
+            </ul> 
+        </li>
+
+	    <li><a href="#">SOFTWARES</a>
+	        <ul>
+	            <li><a href="{% url 'python software' %}">PYTHON</a></li>
+	            <li><a href="{% url 'java software' %}">JAVA</a></li>
+	            <li><a href="{% url 'c software' %}">C</a></li>
+	            <li>C++</li>
+	        </ul>
+	    </li>
+	    <li><a href="#">IDE'S</a>
+	        <ul>
+	            <li><a href="{% url 'python ide' %}"></a>PYTHON IDE'S</a></li>
+	            <li>JAVA</li>
+	            <li>C</li>
+	            <li>C++</li>
+	        </ul>
+	    </li>
+	</ul>
+
+
+</div>
+</body>
+</html>
