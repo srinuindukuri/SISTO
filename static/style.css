@@ -812,9 +812,9 @@ h1:hover {
     border: solid 1px white;
 }
 
-.adv-c-link {
-    background-color: black;
-    color: white;
+.adv-c-clink {
+    color: blue;
+    text-decoration: none;
 }
 
 .advancec-link {
@@ -885,7 +885,7 @@ h1:hover {
 /* Python ide's CODE*/
 
 #python-ide {
-    background-color: #010409;
+    background-color: #0d1117;
 }
 
 .ide-title,
@@ -893,7 +893,7 @@ h1:hover {
     color: white;
     margin-left: 480px;
     font-family: 'playfair display';
-    background-color: #010409;
+    background-color: #0d1117;
     font-size: 35px;
     cursor: pointer;
 }
@@ -955,12 +955,14 @@ h1:hover {
     font-size: 16px;
     font-weight: 850;
     text-decoration: none;
+    transition-timing-function: ease;
 }
 
 .learn-more:hover {
     color: black;
-    background-color: rgb(177, 176, 176);
+    background-color: rgb(224, 224, 224);
     width: 20px;
+    transition-timing-function: ease;
 }
 
 .download-atom {
@@ -976,7 +978,7 @@ h1:hover {
 
 .download-atom:hover {
     color: black;
-    background-color: rgb(177, 176, 176);
+    background-color: rgb(224, 224, 224);
     width: 20px;
     transition: all 0.3s ease 0s;
 }
@@ -998,7 +1000,7 @@ h1:hover {
 .jupyter-notebook:hover,
 .eclipse:hover {
     color: black;
-    background-color: rgb(177, 176, 176);
+    background-color: rgb(224, 224, 224);
     width: 20px;
     transition: all 0.3s ease 0s;
 }
@@ -1018,7 +1020,7 @@ h1:hover {
 .pycharm-download:hover,
 .pycharm-features:hover {
     color: black;
-    background-color: rgb(177, 176, 176);
+    background-color: rgb(224, 224, 224);
     width: 20px;
     transition: all 0.3s ease 0s;
 }
@@ -1036,7 +1038,7 @@ h1:hover {
 
 .download-sublime:hover {
     color: black;
-    background-color: rgb(177, 176, 176);
+    background-color: rgb(224, 224, 224);
     width: 20px;
     transition: all 0.3s ease 0s;
 }
