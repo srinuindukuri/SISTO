@@ -1,33 +1,34 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
-<head>
-	{% block title %}
-    {% endblock %}
-	<link rel="stylesheet" href="{%static 'style.css'%}">
-</head>
-<body>
-<header>
-	<div>
-	  <img class="img" src="/media/sat.jpeg">
-	  <h1 class="main-title">SISTO</h1>
-    </div>	
-	<nav class="navbar">
-	    <ul>
-	        <li><a href="{% url 'home' %}">HOME</a></li>
-	        <li><a href="{% url 'about' %}">ABOUT</a></li>
-	        <li><a href="#">CONTACT</a></li>
-	        {% if user.is_authenticated %}
-	        	<li><a href="{% url 'logout' %}">LOGOUT</a></li>
-	        {% else %}
-	        	<li><a href="{% url 'login' %}">LOGIN</a></li>
-	        {% endif %}	
-	    </ul>
-	</nav>
 
-</header>
-{% block content %}
-{% endblock %}
+<head>
+    {% block title %} {% endblock %}
+    <link rel="stylesheet" href="{%static 'style.css'%}">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="img" src="/media/sat.jpeg">
+            <h1 class="main-title">SISTO</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="{% url 'home' %}">HOME</a></li>
+                <li><a href="{% url 'about' %}">ABOUT</a></li>
+                <li><a href="{% url 'contact' %}">CONTACT</a></li>
+                {% if user.is_authenticated %}
+                <li><a href="{% url 'logout' %}">LOGOUT</a></li>
+                {% else %}
+                <li><a href="{% url 'login' %}">LOGIN</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+
+    </header>
+    {% block content %} {% endblock %}
 
 </body>
+
 </html>

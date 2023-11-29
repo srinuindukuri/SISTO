@@ -23,6 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', views.home, name='home'),
     path('about/', views.about, name='about'),
+    path('contact/', views.contact, name='contact'),
     path('pylang/', views.pylang, name='pylang'),
     path('subscribe/', views.subscribe),
     path('pythonsoftware/', views.pythonsoftware, name='python software'),
@@ -41,4 +42,4 @@ urlpatterns = [
 
 
 
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

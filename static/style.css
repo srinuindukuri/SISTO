@@ -19,7 +19,7 @@
     color: black;
 }
 
-.main-title::hover {
+.main-title:hover {
     color: black;
 }
 
@@ -139,30 +139,31 @@ h1:hover {
 /* PYTHON CSS CODE*/
 
 .softwarebackground {
-    background-color: #e0e0e2;
+    background-color: #010409;
 }
 
 .pythonimages {
-    width: 150px;
-    height: 150px;
-    margin-left: 570px;
-    border-radius: 9px;
+    width: 130px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 590px;
+    border-radius: 20px;
 }
 
 .title:hover {
-    color: black;
+    color: white;
 }
 
 .text {
-    color: black;
-    background-color: #cacaca;
-    transition: all 0.3s ease 0s;
+    color: white;
+    background-color: #010409;
     padding: 20px 15px;
     border-radius: 15px;
     font-size: 25px;
     font-weight: 800;
     margin-left: 310px;
     margin-right: 290px;
+    border: solid 1px #7d8590;
     line-height: 200%;
     font-family: Optima;
     text-align: center;
@@ -170,9 +171,9 @@ h1:hover {
 }
 
 .text:hover {
-    background-color: #e0e0e2;
-    transition: all 0.4s ease 0s;
-    color: black;
+    background-color: #0d1117;
+    color: #7d8590;
+    border: solid 1px white;
 }
 
 .p-link {
@@ -192,7 +193,8 @@ h1:hover {
     width: 190px;
     height: 140px;
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 20px;
+    border: solid 2px rgba(255, 255, 255, 0.15);
     padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
@@ -205,6 +207,7 @@ h1:hover {
 
 .platform-card:hover {
     transform: translateY(-10px);
+    border: solid 2px white;
 }
 
 .card1 {
@@ -225,7 +228,7 @@ h1:hover {
 
 .learn-python {
     margin-left: 20px;
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-weight: 500;
     transition: all 0.3s ease 0s;
@@ -234,7 +237,7 @@ h1:hover {
 }
 
 .learn-python:hover {
-    color: black;
+    color: #2f81f7;
 }
 
 .features {
@@ -249,7 +252,7 @@ h1:hover {
 
 .features:hover {
     background-color: #dddddd;
-    color: black;
+    color: white;
     border-color: black;
     transition: all 0.3s ease 0s;
 }
@@ -270,7 +273,7 @@ h1:hover {
 .realpython-features:hover,
 .learnpython-features:hover {
     background-color: #dddddd;
-    color: black;
+    color: white;
     border-color: black;
     transition: all 0.3s ease 0s;
 }
@@ -297,8 +300,8 @@ h1:hover {
 }
 
 .python-link:hover {
-    background-color: black;
-    color: ghostwhite;
+    background-color: rgb(177, 176, 176);
+    color: black;
 }
 
 .w3schools-logo,
@@ -318,14 +321,14 @@ h1:hover {
     font-weight: 500;
     display: flex;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .w3-text:hover,
 .ca-text:hover,
 .realpython-text:hover,
 .learnpython-text:hover {
-    color: black;
+    color: rgb(177, 176, 176);
 }
 
 
@@ -334,14 +337,14 @@ h1:hover {
 /* JAVA CSS CODE*/
 
 .javasoftwarebackground {
-    background-color: #e0e0e2;
+    background-color: #010409;
 }
 
 .javaimages {
     width: 130px;
     height: 140px;
-    margin-left: 640px;
-    border-radius: 9px;
+    margin-left: 590px;
+    border-radius: 20px;
 }
 
 .java-card1 {
@@ -409,11 +412,10 @@ h1:hover {
 }
 
 .javatext {
-    color: black;
-    background-color: #cacaca;
-    transition: all 0.3s ease 0s;
+    color: white;
     padding: 20px 15px;
     border-radius: 15px;
+    border: solid 1px #7d8590;
     font-size: 25px;
     font-weight: 800;
     margin-left: 310px;
@@ -424,9 +426,9 @@ h1:hover {
 }
 
 .javatext:hover {
-    background-color: #e0e0e2;
-    transition: all 0.5s ease 0s;
-    color: black;
+    background-color: #0d1117;
+    color: rgb(177, 176, 176);
+    border: solid 1px white;
 }
 
 .j-link {
@@ -444,12 +446,16 @@ h1:hover {
 
 .learn-java {
     margin-left: 20px;
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-weight: 500;
     transition: all 0.3s ease 0s;
     text-align: center;
     font-family: Optima;
+}
+
+.learn-java:hover {
+    color: rgb(177, 176, 176);
 }
 
 .java-link {
@@ -458,8 +464,8 @@ h1:hover {
     font-family: big john;
     transition: all 0.3s ease 0s;
     padding: 9px 25px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 5px;
     line-height: 6px;
     display: block;
@@ -469,7 +475,7 @@ h1:hover {
 }
 
 .java-link:hover {
-    background-color: white;
+    background-color: rgb(177, 176, 176);
     color: black;
 }
 
@@ -489,14 +495,14 @@ h1:hover {
     font-weight: 500;
     display: flex;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .java-tutorialspoint-text:hover,
 .java-w3schools-text:hover,
 .learn-java-text:hover,
 .java-tpoint-text {
-    color: black;
+    color: rgb(177, 176, 176);
 }
 
 
@@ -505,15 +511,36 @@ h1:hover {
 /* C CSS CODE*/
 
 .csoftwarebackground {
-    background-color: #e0e0e2;
+    background-color: #010409;
 }
 
 .cimages {
-    width: 150px;
-    height: 150px;
-    margin-left: 580px;
-    margin-top: 36px;
-    border-radius: 12px;
+    width: 130px;
+    height: 140px;
+    margin-left: 590px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.platform-card .c-card1 {
+    width: 190px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 20px;
+    border: solid 2px rgba(255, 255, 255, 0.15);
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin-left: 90px;
+}
+
+.platform-card:hover {
+    transform: translateY(-10px);
+    border: solid 2px white;
 }
 
 .c-card1 {
@@ -581,12 +608,11 @@ h1:hover {
 }
 
 .ctext {
-    color: black;
-    background-color: #cacaca;
-    transition: all 0.3s ease 0s;
+    color: white;
+    background-color: #010409;
     padding: 20px 15px;
     border-radius: 15px;
-    border: 1px solid white;
+    border: solid 1px rgb(177, 176, 176);
     font-size: 25px;
     font-weight: 800;
     margin-left: 310px;
@@ -598,14 +624,14 @@ h1:hover {
 }
 
 .ctext:hover {
-    background-color: #e0e0e2;
-    transition: all 0.5s ease 0s;
-    color: black;
+    background-color: #0d1117;
+    color: rgb(177, 176, 176);
+    border: solid 1px white;
 }
 
 .learn-c {
     margin-left: 20px;
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-weight: 500;
     transition: all 0.3s ease 0s;
@@ -614,7 +640,7 @@ h1:hover {
 }
 
 .learn-c:hover {
-    color: black;
+    color: rgb(177, 176, 176);
 }
 
 .clink {
@@ -636,8 +662,8 @@ h1:hover {
     font-family: big john;
     transition: all 0.3s ease 0s;
     padding: 9px 25px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 5px;
     line-height: 6px;
     display: block;
@@ -647,7 +673,7 @@ h1:hover {
 }
 
 .c-link:hover {
-    background-color: white;
+    background-color: rgb(177, 176, 176);
     color: black;
 }
 
@@ -668,14 +694,14 @@ h1:hover {
     font-weight: 500;
     display: flex;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .c-tutorials-point-text:hover,
 .c-javatpoint-text:hover,
 .w3Schools-text:hover,
 .geeksforgeeks-text:hover {
-    color: black;
+    color: rgb(177, 176, 176);
 }
 
 
@@ -684,7 +710,7 @@ h1:hover {
 /* Advance-C CSS CODE*/
 
 .advancecsoftwarebackground {
-    background-color: #e0e0e2;
+    background-color: #010409;
 }
 
 #advancec {
@@ -693,11 +719,11 @@ h1:hover {
 }
 
 .advancecimages {
-    width: 150px;
-    height: 150px;
-    margin-left: 600px;
-    margin-top: 36px;
-    border-radius: 4px;
+    width: 130px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 590px;
+    border-radius: 20px;
 }
 
 .advanceC-card1 {
@@ -765,9 +791,9 @@ h1:hover {
 }
 
 .advancectext {
-    color: black;
-    background-color: #cacaca;
-    transition: all 0.3s ease 0s;
+    color: white;
+    background-color: #010409;
+    border: solid 1px rgb(177, 176, 176);
     padding: 20px 15px;
     border-radius: 15px;
     font-size: 25px;
@@ -780,9 +806,9 @@ h1:hover {
 }
 
 .advancectext:hover {
-    background-color: #e0e0e2;
-    transition: all 0.5s ease 0s;
-    color: black;
+    background-color: #0d1117;
+    color: rgb(177, 176, 176);
+    border: solid 1px white;
 }
 
 .adv-c-link {
@@ -797,6 +823,7 @@ h1:hover {
     transition: all 0.3s ease 0s;
     padding: 9px 25px;
     color: black;
+    background-color: white;
     border-radius: 5px;
     line-height: 6px;
     display: block;
@@ -806,13 +833,13 @@ h1:hover {
 }
 
 .advancec-link:hover {
-    background-color: black;
-    color: white;
+    background-color: rgb(177, 176, 176);
+    color: black;
 }
 
 .advancelearn-c {
     margin-left: 20px;
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-weight: 500;
     transition: all 0.3s ease 0s;
@@ -821,7 +848,7 @@ h1:hover {
 }
 
 .advancelearn-c:hover {
-    color: white;
+    color: rgb(177, 176, 176);
 }
 
 .tutorials-point-logo,
@@ -841,14 +868,14 @@ h1:hover {
     font-weight: 500;
     display: flex;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .c-tutorials-point-text:hover,
 .c-javatpoint-text:hover,
 .w3Schools-text:hover,
 .learn-advancec-programming-text:hover {
-    color: black;
+    color: rgb(177, 176, 176);
 }
 
 
@@ -857,15 +884,15 @@ h1:hover {
 /* Python ide's CODE*/
 
 #python-ide {
-    background-color: #d8e3e7;
+    background-color: #010409;
 }
 
 .ide-title,
 .ide-title:hover {
-    color: black;
+    color: white;
     margin-left: 480px;
-    font-family: 'Anton', sans-serif;
-    background-color: #d8e3e7;
+    font-family: 'playfair display';
+    background-color: #010409;
     font-size: 35px;
     cursor: pointer;
 }
@@ -880,9 +907,9 @@ h1:hover {
 .fourth-ide:hover,
 .fifth-ide,
 .fifth-ide:hover {
-    color: black;
+    color: white;
     margin-left: 20px;
-    font-family: 'Lobster', cursive;
+    font-family: 'poppins';
     font-size: 33px;
     cursor: pointer;
 }
@@ -910,7 +937,7 @@ h1:hover {
 .pycharm-matter,
 .sublime-matter {
     float: left;
-    color: black;
+    color: white;
     font-size: 19px;
     margin-left: 20px;
     font-size: 20px;
@@ -921,8 +948,8 @@ h1:hover {
 .learn-more {
     transition: all 0.3s ease 0s;
     padding: 9px 25px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 5px;
     font-size: 16px;
     font-weight: 850;
@@ -931,15 +958,15 @@ h1:hover {
 
 .learn-more:hover {
     color: black;
-    background-color: white;
+    background-color: rgb(177, 176, 176);
     width: 20px;
 }
 
 .download-atom {
     transition: all 0.3s ease 0s;
     padding: 9px 25px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 5px;
     font-size: 16px;
     font-weight: 850;
@@ -948,8 +975,9 @@ h1:hover {
 
 .download-atom:hover {
     color: black;
-    background-color: white;
+    background-color: rgb(177, 176, 176);
     width: 20px;
+    transition: all 0.3s ease 0s;
 }
 
 .spyder-website,
@@ -957,8 +985,8 @@ h1:hover {
 .eclipse {
     transition: all 0.3s ease 0s;
     padding: 9px 25px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 5px;
     font-size: 16px;
     font-weight: 850;
@@ -969,7 +997,7 @@ h1:hover {
 .jupyter-notebook:hover,
 .eclipse:hover {
     color: black;
-    background-color: white;
+    background-color: rgb(177, 176, 176);
     width: 20px;
     transition: all 0.3s ease 0s;
 }
@@ -978,8 +1006,8 @@ h1:hover {
 .pycharm-features {
     transition: all 0.3s ease 0s;
     padding: 9px 25px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 5px;
     font-size: 16px;
     font-weight: 850;
@@ -989,7 +1017,7 @@ h1:hover {
 .pycharm-download:hover,
 .pycharm-features:hover {
     color: black;
-    background-color: white;
+    background-color: rgb(177, 176, 176);
     width: 20px;
     transition: all 0.3s ease 0s;
 }
@@ -997,8 +1025,8 @@ h1:hover {
 .download-sublime {
     transition: all 0.3s ease 0s;
     padding: 9px 25px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 5px;
     font-size: 16px;
     font-weight: 850;
@@ -1007,7 +1035,7 @@ h1:hover {
 
 .download-sublime:hover {
     color: black;
-    background-color: white;
+    background-color: rgb(177, 176, 176);
     width: 20px;
     transition: all 0.3s ease 0s;
 }
